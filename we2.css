@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #bababe;
+    color: #333;
+    text-align: center;
+}
+
+.app-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+header {
+    margin-bottom: 2rem;
+}
+
+form {
+    margin-bottom: 2rem;
+}
+
+form input {
+    padding: 10px;
+    margin: 5px;
+    font-size: 1rem;
+    width: calc(45% - 10px);
+}
+
+form button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    background-color: #3a89dd;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+#weather-result {
+    margin-top: 2rem;
+    background: #f5ebeb;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#weather-result h2 {
+    margin: 0 0 1rem;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="we2.css">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1>Weather App</h1>
+            <p>Get the current weather and temperature details.</p>
+        </header>
+        <main>
+            <form id="location-form">
+                <input type="text" id="latitude" placeholder="Enter Latitude (e.g., 52.52)" required>
+                <input type="text" id="longitude" placeholder="Enter Longitude (e.g., 13.41)" required>
+                <button type="submit">Get Weather</button>
+            </form>
+            <div id="weather-result">
+                <!-- Weather details will appear here -->
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2024 Weather App</p>
+        </footer>
+    </div>
+    <script src="we2.js"></script>
+</body>
+</html>
