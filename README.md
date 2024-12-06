@@ -1,2 +1,2 @@
 # Weather-App
-A weather app using APIs and HTML , CSS  and JS which give you weather forecast for your current location .
+This project is a simple Weather App built using HTML, CSS, and JavaScript that fetches real-time weather data using the Open-Meteo API. The app allows users to check the current weather forecast for any location by entering latitude and longitude. Additionally, it includes a Geolocation feature that automatically detects the user's current location to provide weather updates based on their precise coordinates
